@@ -1,0 +1,126 @@
+:root {
+    --dark-interact-color: #6b6b6b;
+    --dark-background-color: #252525;
+    --dark-main-color: #d6d6d6;
+    --dark-main-hover-color: #8e8e8e;
+
+    --white-interact-color: #cacaca;
+    --white-background-color: #dadada;
+    --white-main-color: #000000;
+    --white-main-hover-color: #dedede;
+
+    --background-color: var(--white-background-color);
+    --interact-color: var(--white-interact-color);
+    --main-color: var(--white-main-color);
+    --main-hover-color: var(--white-main-hover-color);
+}
+
+.dark {
+    --background-color: var(--dark-background-color);
+    --interact-color: var(--dark-interact-color);
+    --main-color: var(--dark-main-color);
+    --main-hover-color: var(--dark-main-hover-color);
+}
+
+.light {
+    --background-color: var(--white-background-color);
+    --interact-color: var(--white-interact-color);
+    --main-color: var(--white-main-color);
+    --main-hover-color: var(--white-main-hover-color);
+}
+
+body {
+    background-color: var(--background-color);
+    margin-bottom: 5px;
+}
+
+* {
+    font-size: 1.08em;
+}
+
+#selects select {
+    padding: 4px;
+    margin: 2px;
+}
+
+#title1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#toggleTheme {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    vertical-align: middle;
+    padding: 1px 6px 1px 6px;
+    cursor: pointer;
+    background-color: transparent !important;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+    padding: 4px;
+    margin: 2px;
+    background-color: var(--interact-color);
+    color: var(--main-color);
+    border-color: transparent;
+}
+
+button:hover,
+select:hover,
+input:hover {
+    background-color: var(--main-hover-color);
+}
+
+select,
+input,
+button {
+    background-color: var(--interact-color);
+    color: var(--main-color);
+    border-radius: 8px;
+    border-color: transparent;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+#generated {
+    position: fixed;
+    bottom: 5px;
+}
+
+#commandInput {
+    /* font-size: 42px; */
+    color: var(--main-color);
+    /* position: fixed;
+    bottom: 5px; */
+    line-height: 50px;
+    width: 800px;
+}
+
+.btn {
+    cursor: pointer;
+    /* font-size: 25px; */
+    /* margin-left: 30px; */
+    /* margin-bottom: -10px; */
+    background-color: var(--interact-color);
+    color: var(--main-color);
+    /* border: none; */
+    /* padding: 0px !important; */
+    line-height: 45px;
+    /* margin-left: 980px; */
+}
+
+.article {
+    margin-left: 20px;
+}
+
+a {
+    color: var(--main-color);
+}
+
+h1 {
+    color: var(--main-color);
+}

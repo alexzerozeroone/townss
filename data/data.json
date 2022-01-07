@@ -1,0 +1,670 @@
+{
+    "weapons": {
+        "AK-47": {
+            "longname": "AK-47",
+            "name": "ak",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "AS VAL": {
+            "longname": "AS VAL",
+            "name": "as",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "AUG A3": {
+            "longname": "AUG A3",
+            "name": "au",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "CheyTac M200": {
+            "longname": "ch",
+            "gamepass": false
+        },
+
+        "CZ-75": {
+            "longname": "CZ-75",
+            "name": "cz",
+            "type": "pistol",
+            "gamepass": false
+        },
+
+        "Desert Eagle": {
+            "longname": "Desert Eagle",
+            "name": "de",
+            "type": "pistol",
+            "gamepass": false
+        },
+
+        "Dragunov SVD": {
+            "longname": "Dragunov SVD",
+            "name": "dr",
+            "type": "sniper",
+            "gamepass": false
+        },
+
+        "Famas F1": {
+            "longname": "FAMAS",
+            "name": "fa",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "Five SeveN": {
+            "longname": "Five SeveN",
+            "name": "fi",
+            "type": "pistol",
+            "gamepass": false
+        },
+
+        "G36C": {
+            "longname": "G36C",
+            "name": "g3",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "Glock-18": {
+            "longname": "Glock-18",
+            "name": "ga",
+            "type": "pistol",
+            "gamepass": false
+        },
+
+        "HK416": {
+            "longname": "HK416",
+            "name": "hk",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "JNG-90": {
+            "longname": "JNG-90",
+            "name": "jn",
+            "type": "sniper",
+            "gamepass": false
+        },
+
+        "L85A2": {
+            "longname": "L85A2",
+            "name": "l8",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "L96A1": {
+            "longname": "L96A1",
+            "name": "l9",
+            "type": "sniper",
+            "gamepass": false
+        },
+
+        "M16A3": {
+            "longname": "M16A3",
+            "name": "m1",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "M1911": {
+            "longname": "M1911",
+            "name": "m1",
+            "type": "pistol",
+            "gamepass": false
+        },
+
+        "M4": {
+            "longname": "M4",
+            "name": "m4",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "M9": {
+            "longname": "M9",
+            "name": "m9",
+            "type": "pistol",
+            "gamepass": false
+        },
+
+        "MAC-10": {
+            "longname": "MAC-10",
+            "name": "ma",
+            "type": "submachine_gun",
+            "gamepass": false
+        },
+
+        "Magnum Revolver": {
+            "longname": "Magnum Revolver",
+            "name": "ma",
+            "type": "pistol",
+            "gamepass": false
+        },
+
+        "Makarov": {
+            "longname": "Makarov",
+            "name": "ma",
+            "type": "pistol",
+            "gamepass": false
+        },
+
+        "MG4": {
+            "longname": "MG4",
+            "name": "mg",
+            "type": "machine gun",
+            "gamepass": false
+        },
+
+        "MK-11": {
+            "longname": "MK-11",
+            "name": "mk",
+            "type": "pistol",
+            "gamepass": false
+        },
+
+        "MP443": {
+            "longname": "MP443",
+            "name": "mp",
+            "type": "pistol",
+            "gamepass": false
+        },
+
+        "MP5K": {
+            "longname": "MP5K",
+            "name": "mp",
+            "type": "submachine_gun",
+            "gamepass": false
+        },
+
+        "MP7": {
+            "longname": "MP7",
+            "name": "mp",
+            "type": "submachine_gun",
+            "gamepass": false
+        },
+
+        "P226": {
+            "longname": "P226",
+            "name": "p2",
+            "type": "pistol",
+            "gamepass": false
+        },
+
+        "P90": {
+            "longname": "P90",
+            "name": "p9",
+            "type": "submachine_gun",
+            "gamepass": false
+        },
+
+        "QBU-88": {
+            "longname": "QBU-88",
+            "name": "qb",
+            "type": "sniper",
+            "gamepass": false
+        },
+
+        "QBZ-95": {
+            "longname": "QBZ-95",
+            "name": "qb",
+            "type": "rifle",
+            "gamepass": false
+        },
+
+        "Remington 870": {
+            "longname": "Remington 870",
+            "name": "re",
+            "type": "shotgun",
+            "gamepass": false
+        },
+
+        "RFB": {
+            "longname": "RFB",
+            "name": "rf",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "RPK-74M": {
+            "longname": "RPK-74M",
+            "name": "rp",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "Saddlegun": {
+            "longname": "Saddlegun",
+            "name": "sa",
+            "type": "rifle",
+            "gamepass": false
+        },
+
+        "SKS": {
+            "longname": "SKS",
+            "name": "sk",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "SR-2": {
+            "longname": "SR-2",
+            "name": "sr",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "Steyr Elite": {
+            "longname": "Steyr Elite",
+            "name": "st",
+            "type": "rifle",
+            "gamepass": false
+        },
+
+        "TMP": {
+            "longname": "TMP",
+            "name": "tm",
+            "type": "submachine_gun",
+            "gamepass": false
+        },
+
+        "Tumor Growth": {
+            "longname": "Tumor Growth",
+            "name": "tu",
+            "type": "assault_rifle",
+            "gamepass": false
+        },
+
+        "UMP-40": {
+            "longname": "UMP-40",
+            "name": "um",
+            "type": "submachine_gun",
+            "gamepass": false
+        },
+
+        "SPAS-12": {
+            "longname": "SPAS-12",
+            "name": "spa",
+            "type": "shotgun",
+            "gamepass": true
+        },
+
+        "UNICA 6": {
+            "longname": "UNICA 6",
+            "name": "uni",
+            "type": "shotgun",
+            "gamepass": true
+        },
+
+        "UTS-15": {
+            "longname": "UTS-15",
+            "name": "uts",
+            "type": "shotgun",
+            "gamepass": true
+        },
+
+        "Walther WA2000": {
+            "longname": "Walther WA2000",
+            "name": "wal",
+            "type": "pistol",
+            "gamepass": true
+        },
+
+        "SCAR-H": {
+            "longname": "SCAR-H",
+            "name": "sca",
+            "type": "assault_rifle",
+            "gamepass": true
+        },
+
+        "Akimbo M9": {
+            "longname": "Akimbo M9",
+            "name": "aki",
+            "type": "pistol",
+            "gamepass": true
+        },
+
+        "Barret M82A3": {
+            "longname": "Barret M82A3",
+            "name": "bar",
+            "type": "assault_rifle",
+            "gamepass": true
+        },
+
+        "Classic Pistol": {
+            "longname": "Classic Pistol",
+            "name": "cla",
+            "type": "pistol",
+            "gamepass": true
+        },
+
+        "Cowboy Gun": {
+            "longname": "Cowboy Gun",
+            "name": "cow",
+            "type": "pistol",
+            "gamepass": true
+        },
+
+        "Double Barrel": {
+            "longname": "Double Barrel",
+            "name": "dou",
+            "type": "shotgun",
+            "gamepass": true
+        },
+
+        "Fail": {
+            "longname": "Fail",
+            "name": "fai",
+            "type": "rifle",
+            "gamepass": true
+        },
+
+        "FN FAL": {
+            "longname": "FN FAL",
+            "name": "fna",
+            "type": "rifle",
+            "gamepass": true
+        },
+
+        "Groza-4": {
+            "longname": "Groza-4",
+            "name": "gro",
+            "type": "assault_rifle",
+            "gamepass": true
+        },
+
+        "Ithaca 37 Stakeout": {
+            "longname": "Ithaca 37 Stakeout",
+            "name": "ith",
+            "type": "shotgun",
+            "gamepass": true
+        },
+
+        "KRISS Vector": {
+            "longname": "KRISS Vector",
+            "name": "kri",
+            "type": "submachine_gun",
+            "gamepass": true
+        },
+
+        "Luger P08": {
+            "longname": "Luger P08",
+            "name": "lug",
+            "type": "pistol",
+            "gamepass": true
+        },
+
+        "M1921 Thompson": {
+            "longname": "M1921 Thompson",
+            "name": "m19",
+            "type": "shotgun",
+            "gamepass": true
+        },
+
+        "PP2000": {
+            "longname": "PP2000",
+            "name": "pp2",
+            "type": "submachine_gun",
+            "gamepass": true
+        }
+    },
+
+    "attachments": {
+        "ACOG Sight": {
+            "name": "acogsight",
+            "longname": "ACOG Sight",
+            "type": "sight",
+            "gamepass": false
+        },
+
+        "Bipod": {
+            "name": "bipod",
+            "longname": "Bipod",
+            "type": "grip",
+            "gamepass": false
+        },
+
+        "CL6X Sight": {
+            "name": "cl6xsight",
+            "longname": "CL6X Sight",
+            "type": "sight",
+            "gamepass": false
+        },
+
+        "Compensator": {
+            "name": "compensator",
+            "longname": "Compensator",
+            "type": "barrel",
+            "gamepass": false
+        },
+
+        "Coyote Sight": {
+            "name": "coyotesight",
+            "longname": "Coyote Sight",
+            "type": "sight",
+            "gamepass": false
+        },
+
+        "EOTech Sight": {
+            "name": "eotechsight",
+            "longname": "EOTech Sight",
+            "type": "sight",
+            "gamepass": false
+        },
+
+        "Ergo Grip": {
+            "name": "ergogrip",
+            "longname": "Ergo Grip",
+            "type": "grip",
+            "gamepass": false
+        },
+
+        "Extended Stock": {
+            "name": "extendedstock",
+            "longname": "Extended Stock",
+            "type": "stock",
+            "gamepass": false
+        },
+
+        "Flash Hider": {
+            "name": "flashhider",
+            "longname": "Flash Hider",
+            "type": "barrel",
+            "gamepass": false
+        },
+
+        "Flashlight": {
+            "name": "flashlight",
+            "longname": "Flashlight",
+            "type": "accessory",
+            "gamepass": false
+        },
+
+        "Folding Grip": {
+            "name": "foldinggrip",
+            "longname": "Folding Grip",
+            "type": "grip",
+            "gamepass": false
+        },
+
+        "Green Laser": {
+            "name": "greenlaser",
+            "longname": "Green Laser",
+            "type": "accessory",
+            "gamepass": false
+        },
+
+        "Heavy Suppressor": {
+            "name": "heavysuppressor",
+            "longname": "Heavy Suppressor",
+            "type": "barrel",
+            "gamepass": false
+        },
+
+        "Hunting Scope": {
+            "name": "huntingscope",
+            "longname": "Hunting Scope",
+            "type": "sight",
+            "gamepass": false
+        },
+
+        "JGM4 Sight": {
+            "name": "jgm4sight",
+            "longname": "JGM4 Sight",
+            "type": "sight",
+            "gamepass": false
+        },
+
+        "Kobra Sight": {
+            "name": "kobrasight",
+            "longname": "Kobra Sight",
+            "type": "sight",
+            "gamepass": false
+        },
+
+        "M145 Sight": {
+            "name": "m145sight",
+            "longname": "M145 Sight",
+            "type": "sight",
+            "gamepass": false
+        },
+
+        "PSO-1 Scope": {
+            "name": "pso-1scope",
+            "longname": "PSO-1 Scope",
+            "type": "sight",
+            "gamepass": false
+        },
+
+        "Red Laser": {
+            "name": "redlaser",
+            "longname": "Red Laser",
+            "type": "accessory",
+            "gamepass": false
+        },
+
+        "Suppressor": {
+            "name": "suppressor",
+            "longname": "Suppressor",
+            "type": "barrel",
+            "gamepass": false
+        },
+
+        "Wide Choke": {
+            "name": "widechoke",
+            "longname": "Wide Choke",
+            "type": "barrel",
+            "gamepass": false
+        }
+    },
+
+    "items": {
+        "Balaclava": {
+            "name": "balaclava",
+            "longname": "Balaclava",
+            "type": "accessory",
+            "gamepass": false
+        },
+
+        "Ballistics Helmet": {
+            "name": "ballisticshelmet",
+            "longname": "Ballistics Helmet",
+            "type": "accessory",
+            "gamepass": false
+        },
+
+        "Ballistics Vest": {
+            "name": "ballisticsvest",
+            "longname": "Ballistics Vest",
+            "type": "accessory",
+            "gamepass": false
+        },
+
+        "Bandage": {
+            "name": "bandage",
+            "longname": "Bandage",
+            "type": "item",
+            "gamepass": false
+        },
+
+        "Defibrillator": {
+            "name": "defibrillator",
+            "longname": "Defibrillator",
+            "type": "item",
+            "gamepass": false
+        },
+
+        "Fire axe": {
+            "name": "fireaxe",
+            "longname": "Fire Axe",
+            "type": "item",
+            "gamepass": false
+        },
+
+        "Hammer": {
+            "name": "hammer",
+            "longname": "Hammer",
+            "type": "item",
+            "gamepass": false
+        },
+
+        "Laptop": {
+            "name": "laptop",
+            "longname": "Laptop",
+            "type": "item",
+            "gamepass": false
+        },
+
+        "Mask": {
+            "name": "mask",
+            "longname": "Mask",
+            "type": "accessory",
+            "gamepass": false
+        },
+
+        "Medkit": {
+            "name": "medkit",
+            "longname": "Medkit",
+            "type": "item",
+            "gamepass": false
+        },
+
+        "NV Goggles": {
+            "name": "nvgoggles",
+            "longname": "NV Goggles",
+            "type": "accessory",
+            "gamepass": false
+        },
+
+        "Pickaxe": {
+            "name": "pickaxe",
+            "longname": "Pickaxe",
+            "type": "item",
+            "gamepass": false
+        },
+
+        "Wrench": {
+            "name": "wrench",
+            "longname": "Wrench",
+            "type": "item",
+            "gamepass": false
+        },
+
+        "Riot Shield": {
+            "name": "riotshield",
+            "longname": "Riot Shield",
+            "type": "item",
+            "gamepass": true
+        },
+
+        "Shovel": {
+            "name": "shovel",
+            "longname": "Shovel",
+            "type": "item",
+            "gamepass": true
+        }
+    }
+}

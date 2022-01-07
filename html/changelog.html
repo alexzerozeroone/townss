@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Town Spawn Set Maker - Changelog</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <script src="/lib/vue.js"></script>
+        <script src="/lib/jquery.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <br />
+            <br />
+            <div id="change" v-for="change in changes">
+                <hr />
+                <h1>Changes of {{ change.date }}</h1>
+                <li class="article" v-for="article in change.articles">
+                    {{ article }}
+                </li>
+                <hr />
+            </div>
+        </div>
+        <button type="button" id="toggleTheme">
+            <img id="themeIcon" src="/assets/sun.svg" width="48" height="48" />
+        </button>
+    </body>
+
+    <script src="/js/themeHandler.js"></script>
+    <script src="/js/changelog.js"></script>
+</html>

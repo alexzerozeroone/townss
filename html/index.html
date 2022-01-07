@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Town Spawn Set Maker - Main</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <script src="/lib/vue.js"></script>
+        <script src="/lib/jquery.js"></script>
+        <script src="/lib/clipboard.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <h1 id="title1">
+                Weapon Selection - <a href="/changelog" link>Changelog</a>
+            </h1>
+            <div id="selects">
+                <div id="w1x">
+                    <select name="weapon 1 selection" id="w1x0"></select>
+                    <select name="weapon 1" id="w1x1"></select>
+                    <select name="weapon 1 sight" id="w1x2"></select>
+                    <select name="weapon 1 grip" id="w1x3"></select>
+                    <select name="weapon 1 barrel" id="w1x4"></select>
+                    <select name="weapon 1 stock" id="w1x5"></select>
+                    <select name="weapon 1 accessory" id="w1x6"></select>
+                </div>
+                <div id="w2x">
+                    <select name="weapon 2 selection" id="w2x0"></select>
+                    <select name="weapon 2" id="w2x1"></select>
+                    <select name="weapon 2 sight" id="w2x2"></select>
+                    <select name="weapon 2 grip" id="w2x3"></select>
+                    <select name="weapon 2 barrel" id="w2x4"></select>
+                    <select name="weapon 2 stock" id="w2x5"></select>
+                    <select name="weapon 2 accessory" id="w2x6"></select>
+                </div>
+                <div id="w3x">
+                    <select name="weapon 3 selection" id="w3x0"></select>
+                    <select name="weapon 3" id="w3x1"></select>
+                    <select name="weapon 3 sight" id="w3x2"></select>
+                    <select name="weapon 3 grip" id="w3x3"></select>
+                    <select name="weapon 3 barrel" id="w3x4"></select>
+                    <select name="weapon 3 stock" id="w3x5"></select>
+                    <select name="weapon 3 accessory" id="w3x6"></select>
+                </div>
+                <div id="w4x">
+                    <select name="weapon 4 selection" id="w4x0"></select>
+                    <select name="weapon 4" id="w4x1"></select>
+                    <select name="weapon 4 sight" id="w4x2"></select>
+                    <select name="weapon 4 grip" id="w4x3"></select>
+                    <select name="weapon 4 barrel" id="w4x4"></select>
+                    <select name="weapon 4 stock" id="w4x5"></select>
+                    <select name="weapon 4 accessory" id="w4x6"></select>
+                </div>
+                <div id="w5x">
+                    <select name="weapon 5 selection" id="w5x0"></select>
+                    <select name="weapon 5" id="w5x1"></select>
+                    <select name="weapon 5 sight" id="w5x2"></select>
+                    <select name="weapon 5 grip" id="w5x3"></select>
+                    <select name="weapon 5 barrel" id="w5x4"></select>
+                    <select name="weapon 5 stock" id="w5x5"></select>
+                    <select name="weapon 5 accessory" id="w5x6"></select>
+                </div>
+                <div id="w6x">
+                    <select name="weapon 6 selection" id="w6x0"></select>
+                    <select name="weapon 6" id="w6x1"></select>
+                    <select name="weapon 6 sight" id="w6x2"></select>
+                    <select name="weapon 6 grip" id="w6x3"></select>
+                    <select name="weapon 6 barrel" id="w6x4"></select>
+                    <select name="weapon 6 stock" id="w6x5"></select>
+                    <select name="weapon 6 accessory" id="w6x6"></select>
+                </div>
+                <br />
+                <button id="gen">Generate Spawn Set</button>
+                <br />
+                <div id="generated">
+                    <input readonly id="commandInput" :value="command" />
+
+                    <button class="btn" data-clipboard-target="#commandInput">
+                        Copy to clipboard
+                    </button>
+                </div>
+            </div>
+            <button type="button" id="toggleTheme">
+                <img
+                    id="themeIcon"
+                    src="/assets/sun.svg"
+                    width="48"
+                    height="48"
+                />
+            </button>
+        </div>
+    </body>
+    <script src="/js/main.js"></script>
+    <script src="/js/dataHandler.js"></script>
+    <script src="/js/themeHandler.js"></script>
+    <script src="/js/parser.js"></script>
+</html>
