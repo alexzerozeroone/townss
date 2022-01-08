@@ -7,7 +7,7 @@
     --white-interact-color: #cacaca;
     --white-background-color: #dadada;
     --white-main-color: #000000;
-    --white-main-hover-color: #dedede;
+    --white-main-hover-color: #d4d4d4;
 
     --background-color: var(--white-background-color);
     --interact-color: var(--white-interact-color);
@@ -82,39 +82,34 @@ button {
     color: var(--main-color);
     border-radius: 8px;
     border-color: transparent;
-    transition: 0.8s;
     cursor: pointer;
+    transition: 0.6s;
 }
 
 #generated {
-    position: fixed;
-    bottom: 5px;
+    position: absolute;
+    bottom: 15px;
 }
 
 #commandInput {
-    /* font-size: 42px; */
     color: var(--main-color);
-    /* position: fixed;
-    bottom: 5px; */
     line-height: 50px;
     width: 800px;
+    height: 55.8866px;
+    cursor: auto !important;
 }
 
-.btn {
+.sbtn {
     cursor: pointer;
-    /* font-size: 25px; */
-    /* margin-left: 30px; */
-    /* margin-bottom: -10px; */
     background-color: var(--interact-color);
     color: var(--main-color);
-    /* border: none; */
-    /* padding: 0px !important; */
     line-height: 45px;
-    /* margin-left: 980px; */
+    height: 60.75px;
 }
 
 .article {
     margin-left: 20px;
+    color: var(--main-color);
 }
 
 a {

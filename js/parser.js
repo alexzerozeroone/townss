@@ -50,13 +50,18 @@ function exorcise(string, space = true) {
 }
 
 function blueExorcise(string) {
+    var newstring = string;
     var regex = /.*\++/g;
 
-    if (regex.test(string)) {
-        if (string.replaceAll("+", "") == "undefined") return "";
+    if (regex.test(newstring)) {
+        if (newstring.replaceAll("+", "") == "undefined") return "";
     }
 
-    return string;
+    if (newstring.endsWith("+")) {
+        newstring = newstring.slice(0, -newstring.match(/\+/g).length);
+    }
+
+    return newstring;
 }
 
 function parse(w1, w2, w3, w4, w5, w6) {
@@ -138,9 +143,13 @@ function parse(w1, w2, w3, w4, w5, w6) {
     if (!_w5.includes("undefined")) commandArray.push(_w5);
     if (!_w6.includes("undefined")) commandArray.push(_w6);
 
-    command = `!sts ${commandArray.join(" ")}`.replace(/[ ]{2,}/g, " ");
+    command = `!sts ${commandArray.join(" ")}`
+        .replace(/[ ]{2,}/g, " ")
+        .replaceAll(" none", "");
 
     if (command.endsWith(" ")) command = command.slice(0, -1);
+    if (command == "!sts none none none none none none")
+        command = "!sts tumorgrowth";
 
     if (command.length > 200) {
         alert(
@@ -149,6 +158,72 @@ function parse(w1, w2, w3, w4, w5, w6) {
     }
 
     return command;
+}
+
+function unparse(command) {
+    if (!/\!sts .*/g.test(command)) return;
+
+    var tempJSON1 = {
+        1: {},
+        2: {},
+        3: {},
+        4: {},
+        5: {},
+        6: {},
+    };
+
+    for (var i = 0; i < 6; i++) tempJSON1[i] = defaultWeapon;
+
+    var commandArray = command.split(" ");
+
+    for (var i = 1; i < commandArray.length; i++) {
+        var commandArray2 = commandArray[i].split("+");
+        var type = "";
+        var commandArray3 = [...commandArray2];
+
+        commandArray3.shift();
+
+        for (key in tempJson) {
+            if (
+                filterObject(tempJson[key], "name", commandArray2[0])[0] !=
+                undefined
+            ) {
+                type = filterObject(tempJson[key], "name", commandArray2[0])[0][
+                    "type"
+                ];
+                break;
+            }
+        }
+
+        var temp = {
+            name: commandArray2[0],
+            attachments: commandArray3,
+            type: type,
+        };
+
+        tempJSON1[i - 1] = temp;
+        $(`#w${i}x0 option`)
+            .filter(`[value='${temp.type}']`)
+            .attr("selected", "selected");
+        $(`#w${i}x0`).trigger("change");
+
+        $(`#w${i}x1 option`)
+            .filter(`[value='${temp.name}']`)
+            .attr("selected", "selected");
+        $(`#w${i}x1`).trigger("change");
+
+        for (var j = 0; j < temp.attachments.length; j++) {
+            for (var jj = 2; jj < 7; jj++) {
+                console.log(`#w${i}x${jj}`, temp.attachments[j]);
+                $(`#w${i}x${jj} option`)
+                    .filter(`[value='${temp.attachments[j]}']`)
+                    .attr("selected", "selected");
+                $(`#w${i}x${jj}`).trigger("change");
+            }
+        }
+    }
+
+    app.weapons = tempJSON1;
 }
 
 $("#gen").on("click", function () {
@@ -162,4 +237,8 @@ $("#gen").on("click", function () {
             app.weapons[5]
         )
     );
+});
+
+$("#gen2").on("click", function () {
+    unparse($("#commandInput").val());
 });
