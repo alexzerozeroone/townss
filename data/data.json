@@ -105,7 +105,7 @@
 
         "M16A3": {
             "longname": "M16A3",
-            "name": "m1",
+            "name": "m16",
             "type": "assault_rifle",
             "gamepass": false
         },
