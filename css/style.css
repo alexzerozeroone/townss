@@ -69,11 +69,12 @@ button {
     border-color: transparent;
 }
 
+/*
 button:hover,
 select:hover,
 input:hover {
     background-color: var(--main-hover-color);
-}
+} */
 
 select,
 input,
