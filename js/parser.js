@@ -214,7 +214,6 @@ function unparse(command) {
 
         for (var j = 0; j < temp.attachments.length; j++) {
             for (var jj = 2; jj < 7; jj++) {
-                console.log(`#w${i}x${jj}`, temp.attachments[j]);
                 $(`#w${i}x${jj} option`)
                     .filter(`[value='${temp.attachments[j]}']`)
                     .attr("selected", "selected");
